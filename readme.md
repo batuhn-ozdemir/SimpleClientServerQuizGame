@@ -1,14 +1,14 @@
-Project Description
+Project Description : 
  This project is a multiplayer real-time quiz game implemented in Python using TCP
  sockets and GUI-based clients built with Tkinter. The server manages multiple clients,
  broadcasts quiz questions, receives answers, calculates scores, and announces the winner(s).
  
- Technologies Used
+ Technologies Used : 
  • Python 3.x
  • socket, threading, json modules
  • Tkinter for GUI
  
- System Workflow
+ System Workflow : 
  1. Server Initialization
  The server is started using python3 server.py. It begins listening on localhost.
  2. Client Nickname Input
@@ -22,7 +22,7 @@ Project Description
  After all players complete the quiz, final scores are sent to each client and also displayed
  on the server terminal. Players with the highest score are marked as (Winner).
 
-How to Run
+How to Run : 
  1. Run the server:
  python3 server.py
  2. Run at least 3 clients:
